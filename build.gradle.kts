@@ -40,8 +40,8 @@ kotlin {
             }
             cinterops.create("sdbm") {
 //                includeDirs(file("src/sdbm_rev1").absolutePath)
-                includeDirs(file("src/sdbm_rev2").absolutePath)
-//                includeDirs(file("src/sdbm_rev3").absolutePath)
+//                includeDirs(file("src/sdbm_rev2").absolutePath)
+                includeDirs(file("src/sdbm_rev3").absolutePath)
             }
         }
     }
