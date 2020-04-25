@@ -1,0 +1,7 @@
+*.o
+*.a
+dbe
+dba
+dbu
+dbd
+*~

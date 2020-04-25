@@ -1,0 +1,2 @@
+headers = sdbm.h
+package = sdbm.cinterop
