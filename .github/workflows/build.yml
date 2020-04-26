@@ -14,7 +14,7 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Build and test
-        run: ./gradlew runDebugExecutableMacosX64
+        run: ./gradlew runDebugExecutableMacosX64 --info --stacktrace
 
   linux:
     runs-on: ubuntu-latest
@@ -23,14 +23,5 @@ jobs:
       - uses: actions/checkout@v2
 
       - name: Build and test
-        run: ./gradlew runDebugExecutableLinuxX64
-
-  mingw:
-    runs-on: windows-latest
-
-    steps:
-      - uses: actions/checkout@v2
-
-      - name: Build and test
-        run: ./gradlew runDebugExecutableMingwX64
+        run: ./gradlew runDebugExecutableLinuxX64 --info --stacktrace
 
